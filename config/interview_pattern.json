@@ -1,0 +1,38 @@
+{
+  "role": "Applied AI Engineer",
+  "interviewer_name": "Alex",
+  "max_followups_per_question": 1,
+  "rounds": [
+    {
+      "name": "Introduction",
+      "source": "none",
+      "questions": 1,
+      "instruction": "Greet the candidate and ask them to introduce themselves and their current focus."
+    },
+    {
+      "name": "Resume Deep-Dive",
+      "source": "resume",
+      "questions": 2,
+      "instruction": "Ask about a specific project or experience from the resume context. Probe design decisions, trade-offs and measurable results."
+    },
+    {
+      "name": "Technical",
+      "source": "question_bank",
+      "questions": 3,
+      "instruction": "Ask one technical question based on the question bank context, picking a topic that matches the candidate's skills. Do not repeat a topic already covered."
+    },
+    {
+      "name": "Behavioral",
+      "source": "question_bank",
+      "topic_filter": "behavioral",
+      "questions": 1,
+      "instruction": "Ask one behavioral question (teamwork, conflict, failure or ownership)."
+    },
+    {
+      "name": "Wrap-up",
+      "source": "none",
+      "questions": 1,
+      "instruction": "Ask if the candidate has any questions for the interviewer, then close politely."
+    }
+  ]
+}

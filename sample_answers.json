@@ -1,0 +1,11 @@
+[
+  "Hi, I'm a software engineer focused on LLM applications. Recently I built a RAG chatbot over company documents and a small voice assistant.",
+  "In the RAG chatbot I chunked PDFs, stored embeddings in a vector database and retrieved the top chunks for each question, which cut wrong answers compared with plain prompting.",
+  "I chose chunk sizes of about 500 characters with overlap after testing a few options on an evaluation set.",
+  "RAG retrieves relevant chunks from a vector database and adds them to the prompt so the model answers from our data with citations.",
+  "I would check whether the right chunks are retrieved, then try hybrid search or re-ranking, then improve the prompt.",
+  "Function calling lets the model return a structured call with arguments; the app validates and runs the tool and sends the result back.",
+  "Latency comes from speech-to-text, the LLM's time to first token, text-to-speech and the network; streaming each stage reduces it.",
+  "I explained an AI cost estimate to a non-technical manager using cost per customer instead of tokens, and they approved the pilot.",
+  "What does success look like in this role in the first three months?"
+]
